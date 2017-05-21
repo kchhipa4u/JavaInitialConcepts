@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class PrintNumberInWord {   // Save as "PrintNumberInWord.java"
    public static void main(String[] args) {
-      int number = 5;  // Set the value of "number" here!
+      int number = 1;  // Set the value of "number" here!
       
       System.out.println("Please enter the desired number");
       
@@ -19,22 +19,30 @@ public class PrintNumberInWord {   // Save as "PrintNumberInWord.java"
       number = sc.nextInt();
  
       // Using nested-if
-      /*if (number == 1) {
-         System.out.println( ...... );
-      } else if ( ...... ) {
-         ......
-      } else if ( ...... ) {
-         ......
-         ......
-      } else {
-         ......
+     /* if (number == 1) {
+         System.out.println( "ONE" );
+      } else if ( number == 2) {
+    	  System.out.println( "TWO" );
+      } 
+      else{
+    	  System.out.println("OTHER");
       }*/
- 
+      
+      
+      
       // Using switch-case
       switch(number) {
-         case 1: System.out.println( "ONE" ); break;  // Don't forget "break"
+         case 1: {
+        	 System.out.println( "ONE" ); // Don't forget "break"
+        	 System.out.println("more");
+        	 if(true)
+        	 {
+        		 System.out.println("inside if");
+        	 }
+        	break; 
+         }
          case 2: System.out.println( "TWO" ); break;
-         //......
+         case 3: System.out.println( "THREE" ); break;
         // ......
          default: System.out.println( "OTHER" ); 
       }
