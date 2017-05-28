@@ -1,4 +1,4 @@
-package lec4.controlflow;
+package lec5.runtimearguments;
 
 import java.util.Scanner;    // needed to use Scanner for input
 /**
@@ -29,8 +29,8 @@ public class KeyboardScanner {
    
       // Display
       //......
-     //System.out.println("Hi! "+name+", the sum of " + num1 + "");
+     System.out.println("Hi! "+name+", the sum of " + num1 + "");
       // Close the input stream
-      in.close();
+     // in.close();
    }
 }
