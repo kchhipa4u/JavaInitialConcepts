@@ -6,8 +6,9 @@ public class JavaTernaryOperatorExamples {
 	  {
 	    // min value example
 	    int minVal, a=3, b=2;
+	    
 	    minVal = a < b ? a : b;
-	    System.out.println("min = " + minVal);
+	   // System.out.println("min = " + minVal);
 	    
 	    // absolute value example
 	    a = -10;
