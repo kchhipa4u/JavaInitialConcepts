@@ -1,16 +1,16 @@
 package lec8.oop.scopeofvariables;
 
 public class VariableScope {
-	/*int i;
-	int j =i;
+	int i;
+	int j =i;  // j =0;
 	
-	void foo()
+    void foo()
 	{
-		j = k;
+		j = k;   // valid
 	}
 	
-	j = k;
+    j = k;   // invalid, we can't write this in class
 	
-	int k;*/
+	int k;  // valid class level variable or instance variable, 0
 
 }
