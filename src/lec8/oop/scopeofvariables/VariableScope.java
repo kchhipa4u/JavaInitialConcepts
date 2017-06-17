@@ -9,8 +9,8 @@ public class VariableScope {
 		j = k;   // valid
 	}
 	
-    j = k;   // invalid, we can't write this in class
-	
-	int k;  // valid class level variable or instance variable, 0
-
+   // j = k;   // invalid, we can't write this in class
+    int k;  // valid class level variable or instance variable, 0
+    
+   // System.out.println("SSS");   // Invlid
 }

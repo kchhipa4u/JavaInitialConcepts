@@ -1,6 +1,7 @@
 package lec8.oop.scopeofvariables;
 public class Student {
     // variable declarations    
+	// property, fields, attributes, 
     private static int studentCount;
     
     private static int idInitializer = 1000;
