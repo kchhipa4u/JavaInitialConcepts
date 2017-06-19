@@ -16,8 +16,15 @@ public class ExpensiveBoxedOperation {
 	static void veryExpensive() { 
 		  System.out.println("\nInside veryExpensive ...");
 	      Long sum = 0L; 
+		  //long sum =0L;
+	      
 		  for (long i = 0; i < Integer.MAX_VALUE; i++) {
 		      sum = sum + i;  // auto-unboxes sum, addition, auto-boxes again
+		      
+		      //  sum -->  Long -> long
+		      //  long + long (sum + i)
+		      // long -> Long
+		      // 2147483647
 		  }
 	    }
 	

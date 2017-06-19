@@ -19,5 +19,10 @@ public class UserTest {
 		/*editor.approveReview();
 		editor.postAReview();
 		editor.saveWebLink();*/
+		
+		// Casting & instanceof demo
+				//UserTest ut = new UserTest();
+				//ut.approveReview(new Staff());
+				//ut.approveReview(new Editor());	
 	}
 }
