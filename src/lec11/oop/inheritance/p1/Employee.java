@@ -19,4 +19,13 @@ public class Employee {
 		this.address = address;
 	}
 	
+	// default, protected
+	public static void main(String[] args) {
+		Parent p = new Parent();
+		
+		NewChild nc = new NewChild();
+		//nc.
+		//p.
+	}
+	
 }

@@ -10,11 +10,12 @@ package lec6.javabasic.memorymgmt.stackandheap;
 
 
 public class StaticBlockDemo {
-
+   // Static block will be called one and only one time.
 	static{
 		System.out.println("I am static block..");
 	}
 	
+	// It will execute every time whenever object is created and it calls before constructor.
 	// instance block
 	{
 		System.out.println("I am instance block..");
@@ -31,5 +32,10 @@ public class StaticBlockDemo {
 		
 		// instance
 		StaticBlockDemo s = new StaticBlockDemo();
+		StaticBlockDemo s1 = new StaticBlockDemo();
+	}
+	
+	static{
+		System.out.println("Second static block..");
 	}
 }

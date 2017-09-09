@@ -15,8 +15,8 @@ public class StaticBasicsDemo {
 	}
 	
 	public static void main(String[] args) {
-		StaticBasicsDemo sd = new StaticBasicsDemo();
-		StaticBasicsDemo ds1 = new StaticBasicsDemo(10);
+		//StaticBasicsDemo sd = new StaticBasicsDemo();
+		//StaticBasicsDemo ds1 = new StaticBasicsDemo(10);
 	}
 	
 	

@@ -1,0 +1,3 @@
+Kanhaiya	30	kchhipa@gmail.com	M
+Anil	31	anil@gmail.com	M
+Neha	25	neha@gmail.com	F

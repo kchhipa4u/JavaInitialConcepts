@@ -7,37 +7,20 @@ package lec8.oop.scopeofvariables;
 
 // x =7;
 
-
-
-
-public class LocalVariableScope {
+public class LocalVariableScope {/*
 
 	void foo(int p)
 	{
 		int x =10, z =x;
-		int y=2;   // explicitly define the final variable
+		//int y=2;   // explicitly define the final variable
 		if(x == 0)
 		{
-			 y = x;   // y = 0;
-			 x = 0;
+			//int  y = x;   // y = 0;
+			// int x = 0;  // invalid
 		}		
-		y++;
+		y++;  // invalid
 		
 		//System.out.println(y);
 	}
 	
-	
-	void add(int x, int y){
-		 int z;  // Declaration of variable
-		
-		z = x+y;  // initialization of variable
-		
-		z =10;
-		
-			 for(int i=0; i < 10; i++)
-			  {
-				
-			  }
-		
-		}
-}
+*/}
