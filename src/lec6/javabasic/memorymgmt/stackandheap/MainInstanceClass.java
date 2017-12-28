@@ -5,6 +5,9 @@ class A
      int nonStaticVariable;
      static int staticVariable;
  
+     static{
+    	 System.out.println("Static variables in static block is: " + staticVariable);
+     }
      static void staticMethod()
      {
           System.out.println(staticVariable);
@@ -22,12 +25,13 @@ public class MainInstanceClass
 {
      public static void main(String[] args)
      {
+    	 System.out.println("I am in main method of MainInstanceClass");
           A.staticVariable = 10;
      //   A.nonStaticVariable = 10;
-          A.staticMethod();
+        //  A.staticMethod();
     //    A.nonStaticMethod();
  
-          A a1 = new A();
+        /*  A a1 = new A();
           A a2 = new A();
  
           System.out.println(a1.nonStaticVariable);
@@ -37,6 +41,6 @@ public class MainInstanceClass
  
           System.out.println(a2.staticVariable);
           a1.staticVariable = 20;
-          System.out.println(a2.staticVariable);
+          System.out.println(a2.staticVariable);*/
      }
 }

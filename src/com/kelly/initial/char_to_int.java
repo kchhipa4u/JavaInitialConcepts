@@ -5,11 +5,11 @@ public class char_to_int
       public static void main(String args[])
       {
            char myChar = 'a';
-           int  i = myChar; // cast from a char to an int
+           int  i = myChar; // cast from a char to an int, implicit typecast  20000
 
-           System.out.println ("ASCII value - " + i);
+           System.out.println ("ASCII value : " + i);
            
-           /*String s = "a";
+          /* String s = "a"; // -> // 97
            
            int x = (int) s;*/
       }
